@@ -1,9 +1,50 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#headerContainer {
+  background-color: skyblue;
+  margin: none;
+  padding: 30px;
+}
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
 }
 #searchContainer {
   display: flex;
   justify-content: space-evenly;
+  gap: 3px;
+}
+#headerTitle {
+  font-size: 24px;
+}
+#searchBar,
+#searchBtn {
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 5px;
+}
+#weatherContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 15px;
+}
+#currentLocationName {
+  font-size: 36px;
+}
+
+#conditionText {
+  font-size: 24px;
+}
+
+#errorMessage {
+  background-color: rgb(77, 17, 17);
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
 }

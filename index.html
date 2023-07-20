@@ -11,21 +11,24 @@
 </head>
 
 <body>
-    <header>
-        <div id="headerTitle">The Weather App</div>
-        <div id="searchContainer">
-            <input id="searchBar" placeholder="Search..">
-            <button id="searchBtn">Go</button>
-        </div>
-    </header>
+    <div id="headerContainer">
+        <header>
+            <div id="headerTitle">The Weather App</div>
+            <div id="searchContainer">
+                <input id="searchBar" placeholder="Search..">
+                <button id="searchBtn">Go</button>
+            </div>
+        </header>
+    </div>
     <div id="weatherContainer">
-        <h2 id="currentLocation">#</h2>
+        <h2 id="currentLocationName">#</h2>
         <div id="currentTime">#</div>
         <div id="currentTemp">#</div>
         <div id="conditionDisplay">
             <div id="conditionText">#</div>
-            <img class="conditionIcon" src="#">
+            <img id="conditionIcon" src="#">
         </div>
+        <div id="errorMessage" style="display: none;"></div>
     </div>
     </div>
 </body>
