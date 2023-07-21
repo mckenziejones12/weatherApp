@@ -47,4 +47,15 @@ header {
   padding: 20px;
   text-align: center;
   align-self: center;
+  position: absolute;
+  margin-top: 25%;
+}
+#currentTempSection {
+  display: flex;
+  gap: 20px;
+}
+#tempTglBtn {
+  color: white;
+  background-color: skyblue;
+  border: none;
 }
