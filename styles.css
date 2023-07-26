@@ -10,10 +10,11 @@ html {
   background-size: cover;
 }
 #headerContainer {
-  background-color: skyblue;
+  background-color: rgb(211, 230, 237);
   margin: none;
   padding: 30px;
   opacity: 0.9;
+  color: white;
 }
 header {
   display: flex;
@@ -44,6 +45,7 @@ header {
   flex-direction: column;
   gap: 15px;
   background-color: white;
+  opacity: 0.9;
   padding: 30px;
   border-radius: 10px;
   max-width: 400px;
@@ -78,13 +80,14 @@ header {
 }
 #forecastDisplay {
   display: flex;
-  background-color: skyblue;
+  background-color: rgb(211, 230, 237);
   gap: 20px;
   justify-content: center;
   padding: 20px;
   margin: auto;
   border-radius: 10px;
   max-width: 800px;
+  opacity: 0.8;
 }
 .forecastCard {
   display: flex;
