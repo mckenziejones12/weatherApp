@@ -73,7 +73,7 @@ header {
   display: flex;
   gap: 20px;
 }
-#tempTglBtn {
+#tempToggleBtn {
   color: white;
   background-color: skyblue;
   border: none;
